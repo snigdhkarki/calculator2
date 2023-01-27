@@ -1,0 +1,40 @@
+#calculator {
+  border: 1px solid #ccc;
+    padding: 20px;
+    width: 325px;
+    height: 465px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    color: #fff;
+
+}
+
+#display {
+  width: 100%;
+  
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 36px;
+  height: 50px;
+}
+
+#numbers, #operations {
+  width: 100%;
+}
+
+.number, .operation {
+  width: 33%;
+  font-size: 18px;
+  padding: 20px 0;
+  float: left;
+}
+
+#clear {
+  width: 50%;
+}
+
+.number:active, .operation:active {
+  background-color: #ccc;
+}
